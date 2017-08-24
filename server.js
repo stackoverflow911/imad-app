@@ -15,7 +15,7 @@ var page1 = {
             -Dont worry about turning on/off your light we do it for u. <hr>
             2.Automatic Cooling system <br>
             -Dont worry about turning on your ac or fan we are always happy to help. <hr>
-            <hr><hr>
+            <br><br>
             More features coming soon.
             
             
