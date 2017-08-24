@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var page1 = {
     title: 'page1 |ruman',
-    heading: 'page2',
+    heading: 'page1',
     date: '24 aug',
     content: `
         <p>
@@ -19,6 +19,32 @@ var page1 = {
             shit happensshit happensshit happens
             
             shit happen
+        </p>
+        <p>
+            para2 djfvjnfdnvjfj
+        </p>`
+    
+};
+var page2 = {
+    title: 'page2 |ruman',
+    heading: 'page2',
+    date: '24 aug',
+    content: `
+        <p>
+            content of page 2
+        </p>
+        <p>
+            para2 djfvjnfdnvjfj
+        </p>`
+    
+};
+var page3 = {
+    title: 'page3 |ruman',
+    heading: 'page3',
+    date: '24 aug',
+    content: `
+        <p>
+           content of page 3
         </p>
         <p>
             para2 djfvjnfdnvjfj
@@ -70,11 +96,11 @@ app.get('/one', function (req, res) {
 });
 
 app.get('/two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'two.html'));
+  res.send(createtemplate(page2));
 });
 
 app.get('/three', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'three.html'));
+  res.send(createtemplate(page3));
 });
 
 app.get('/ui/style.css', function (req, res) {
