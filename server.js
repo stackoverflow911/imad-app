@@ -25,13 +25,45 @@ var page1 = {
         </p>`
     
 };
+function createtemplate(data){
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
+
+    var htmltemplate = `
+    <html>
+        <head>
+            <title>
+             ${title}
+            </title>
+            <link href="/ui/style.css" rel="stylesheet" />
+        </head> 
+        <body>
+            <div class="container">
+                <div>
+                <a href='/'>Home</a>
+                </div>
+                   <h2> ${heading} </h2>
+                <div>
+                ${content}
+                </div>
+            
+            </div>
+            
+        </body>
+    </html>
+    `;
+
+}    
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/one', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'one.html'));
+  res.send(createtemplate(page1));
 });
 
 app.get('/two', function (req, res) {
