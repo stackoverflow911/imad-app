@@ -12,8 +12,10 @@ var page1 = {
     content: `
         <p>
             1.Automatic light control system <hr>
-            -Dont worry about turning on/off your light we do it for u. </hr>
-            -
+            -Dont worry about turning on/off your light we do it for u. <hr>
+            2.Automatic Cooling system <hr>
+            -Dont worry about turning on your ac or fan we are always happy to help. <hr>
+            
             
             
         </p>
