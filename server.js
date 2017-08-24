@@ -46,7 +46,7 @@ var page3 = {
     content: `
         <p>
            1.Ruman Mulla <hr>
-           2.Saurabh sawant <hr> <img src="/ui/madi.jpg" class="img-medium"/> <br>
+           2.Saurabh sawant <hr> <img src="/ui/madi.png" class="img-medium"/> <br>
            3.Soham khawte <hr> <img src="/ui/soham.jpg" class="img-medium"/> <br>
            4.Aswet <hr> <img src="/ui/aswet.jpg" class="img-medium"/> <br>
         </p>
