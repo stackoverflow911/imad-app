@@ -26,11 +26,11 @@ var page1 = {
 };
 var page2 = {
     title: 'page2 |ruman',
-    heading: 'page2',
+    heading: 'Price',
     date: '24 aug',
     content: `
         <p>
-            content of page 2
+            
         </p>
         <p>
             para2 djfvjnfdnvjfj
@@ -39,14 +39,17 @@ var page2 = {
 };
 var page3 = {
     title: 'page3 |ruman',
-    heading: 'page3',
+    heading: 'Founders',
     date: '24 aug',
     content: `
         <p>
-           content of page 3
+           1.Ruman Mulla <hr>
+           2.Saurabh sawant <hr>
+           3.Soham khawte <hr>
+           4.Aswet <hr>
         </p>
         <p>
-            para2 djfvjnfdnvjfj
+            
         </p>`
     
 };
