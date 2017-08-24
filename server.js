@@ -16,7 +16,7 @@ var page1 = {
             2.Automatic Cooling system <br>
             -Dont worry about turning on your ac or fan we are always happy to help. <hr>
             <br><br>
-            More features coming soon.
+            More features coming soon....
             
             
             
