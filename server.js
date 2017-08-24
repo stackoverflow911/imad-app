@@ -5,6 +5,27 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var page1 = {
+    title: 'page1 |ruman',
+    heading: 'page2',
+    date: '24 aug',
+    content: `
+        <p>
+            dhinchikasyayucyugc shit happens VVVV shit happensshit happensshit happensshit happensshit happensshit happensshit happensshit happensshit happens
+            shit happensshit happensshit happensshit happensshit happensshit happensshit happens
+            
+            shit happensshit happensshit happensshit happens
+            shit happensshit happensshit happens
+            shit happensshit happensshit happens
+            
+            shit happen
+        </p>
+        <p>
+            para2 djfvjnfdnvjfj
+        </p>`
+    
+};
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
