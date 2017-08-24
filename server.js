@@ -7,18 +7,15 @@ app.use(morgan('combined'));
 
 var page1 = {
     title: 'page1 |ruman',
-    heading: 'page1',
+    heading: 'features',
     date: '24 aug',
     content: `
         <p>
-            dhinchikasyayucyugc shit happens VVVV shit happensshit happensshit happensshit happensshit happensshit happensshit happensshit happensshit happens
-            shit happensshit happensshit happensshit happensshit happensshit happensshit happens
+            1.Automatic light control system </hr>
+            -Dont worry about turning on/off your light we do it for u. </hr>
+            -
             
-            shit happensshit happensshit happensshit happens
-            shit happensshit happensshit happens
-            shit happensshit happensshit happens
             
-            shit happen
         </p>
         <p>
             para2 djfvjnfdnvjfj
