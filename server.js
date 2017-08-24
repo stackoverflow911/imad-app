@@ -47,7 +47,7 @@ var page3 = {
         <p>
            1.Ruman Mulla <hr>
            2.Saurabh sawant <hr> <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/12418072_1053896784684225_1384113354466222094_n.jpg?oh=882c0ce36109c4cd02fcb691c7f927fb&oe=5A33D4E1" class="img-medium"/> <br>
-           3.Soham khawte <hr> <img src="/ui/soham.jpg" class="img-medium"/> <br>
+           3.Soham khawte <hr> <img src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/12308445_940097302743837_5145793345207278043_n.jpg?oh=2d2fec30d9b813a713119c74ddf6bcc0&oe=5A1D25B8" class="img-medium"/> <br>
            4.Aswet <hr> <img src="/ui/aswet.jpg" class="img-medium"/> <br>
         </p>
         <p>
