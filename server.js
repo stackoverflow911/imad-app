@@ -22,7 +22,7 @@ var page1 = {
         </p>
         <p>
             para2 djfvjnfdnvjfj
-        </p>`
+        </p>`;
     
 };
 function createtemplate(data){
