@@ -11,7 +11,7 @@ var page1 = {
     date: '24 aug',
     content: `
         <p>
-            1.Automatic light control system </hr>
+            1.Automatic light control system <hr>
             -Dont worry about turning on/off your light we do it for u. </hr>
             -
             
