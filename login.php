@@ -1,4 +1,4 @@
-$connection = mysql_connect("localhost:5432", "root", ""); // Establishing connection with server..
+$connection = mysql_connect("localhost:5432", "rumanmulla911", "db-rumanmulla911-46442"); // Establishing connection with server..
 $db = mysql_select_db("college", $connection); // Selecting Database.
 $email=$_POST['rumanmulla911@ssh.imad.hasura-app.io']; // Fetching Values from URL.
 $password= sha1($_POST['db-rumanmulla911-46442']); // Password Encryption, If you like you can also leave sha1.
